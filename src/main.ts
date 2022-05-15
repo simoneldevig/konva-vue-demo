@@ -1,10 +1,10 @@
 import { createApp,  } from 'vue'
 import App from './App.vue'
 import { createRouter, createWebHashHistory } from 'vue-router';
-import Simple from './pages/Simple.vue';
-import Editor from './pages/Editor.vue';
-import Advanced from './pages/Advanced.vue';
-import Transform from './pages/Transform.vue';
+import Simple from './components/Simple.vue';
+import Editor from './components/Editor.vue';
+import Advanced from './components/Advanced.vue';
+import Transform from './components/Transform.vue';
 import './index.css';
 
 const routes = [

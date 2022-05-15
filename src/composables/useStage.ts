@@ -12,7 +12,7 @@ export default () => {
       container: document.createElement('div'),
       width: 1000,
       height: 1000,
-      draggable: true,
+      draggable: false,
     });
 
     const fitStageIntoParentContainer = () => {

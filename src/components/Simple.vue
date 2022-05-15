@@ -7,7 +7,7 @@
 <script lang="ts">
 import { defineComponent } from '@vue/runtime-core';
 import useStage from '../composables/useStage';
-import { Rect } from "konva/lib/shapes/Rect";
+import { Rect } from 'konva/lib/shapes/Rect';
 import { onMounted } from 'vue';
 
 export default defineComponent({
@@ -29,7 +29,7 @@ export default defineComponent({
       });
   
       // add the shape to the layer
-      layer.add(circle);
+      layer.add(rect);
     });
 
     return {
