@@ -4,11 +4,14 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import Simple from './pages/Simple.vue';
 import Editor from './pages/Editor.vue';
 import Advanced from './pages/Advanced.vue';
+import Transform from './pages/Transform.vue';
+import './index.css';
 
 const routes = [
   { path: '/', component: Simple },
   { path: '/advanced', component: Advanced },
   { path: '/editor', component: Editor },
+  { path: '/transform', component: Transform },
 ]
 
 // 3. Create the router instance and pass the `routes` option
