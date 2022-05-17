@@ -25,7 +25,8 @@ export default defineComponent({
         fill: '#0c74b5',
         stroke: '#000',
         strokeWidth: 2,
-        perfectDrawEnabled: false
+        perfectDrawEnabled: false,
+        draggable: true
       });
   
       // add the shape to the layer

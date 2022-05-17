@@ -7,4 +7,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  purge: {
+    safelist: ["bg-slate-700"],
+  }
 }
